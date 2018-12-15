@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"  crossorigin="anonymous">
+        <!-- Optional theme -->
+        <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">-->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body ng-app="myApp">
+
+        <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: white;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+
+                <!-- <img style="width:200px; height:200px;" class="img-responsive" src="images/square_cuentas.png" />-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div id="divabs">
+                    <a href="">
+                        <img class="img-responsive" width="180" height="180" src="img/square_cuentas.png" />
+                    </a>
+                </div>
+                <div id="divabs2" hidden>
+                    <a href="">
+                        <img class="img-responsive" width="70" height="70" src="img/square_cuentas.png"/>
+                    </a>
+                </div>
+                <div id="ctanual">2017</div>
+            </div>
+            <div class="row roboto-light" id="navtelmail">
+                <!--<div style="display:inline-block; padding-left: 200px; padding-top:10px;">
+                    <i class="glyphicon glyphicon-earphone"></i>
+                    <span class="roboto-light">01 800 212 3456</span>
+                </div>-->
+                <div id="stilo_mail">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                    <span class="roboto-light">soncuentasclaras@sonora.gob.mx</span>
+                </div>
+            </div>
+
+            <div class="navbar-collapse collapse" id="menudos">
+
+                <ul class="nav navbar-nav">
+                    <li><a class="link-1" runat="server" href="~/">Inicio</a></li>
+                    <li><a class="link-1" runat="server" href="/#Rubros">Menú</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle link-1" data-toggle="dropdown" role="button"
+                           aria-haspopup="true" aria-expanded="false">
+                            Rubros<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Educacion</a></li>
+                            <li><a href="">Salud</a></li>
+                            <li><a href="">Desarrollo Económico</a></li>
+                            <li><a href="">Seguridad y Gobernabilidad</a></li>
+                            <li><a href="">Deuda Pública</a></li>
+                            <li><a href="">Desarrollo Social</a></li>
+                            <li>
+                                <a href="">
+                                    <div>Otros Poderes</div>
+                                    <div> y Órganos Autónomos</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--<li><a runat="server" href="~/Servicios">Servicios</a></li>-->
+                    <li><a class="link-1" href="#Contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+        <div ng-view></div>
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="js/angular-route.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/route.js"></script>
+    </body>
+</html>
