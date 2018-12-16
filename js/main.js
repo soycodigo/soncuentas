@@ -3,8 +3,8 @@ $(document).ready(function () {
     $(document).on("scroll", function () {
         if ($(document).scrollTop() > 150) {
 
-            // $(".divrub").css({visibility: 'visible',width:'270px'});
-            $(".divrub").addClass('divmas');
+            $(".divrub").css({visibility: 'visible',width:'54%'});
+            //$(".divrub").addClass('divmas'); no funcionó en html5 puro
             $(".divrub").removeClass('divmenos');
             $("#divabs").hide('fadeOut');
             $("#divabs2").show();

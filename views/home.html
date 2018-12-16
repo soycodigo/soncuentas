@@ -33,8 +33,24 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img class="img-responsive" src="img/educacion.png" alt="educacion">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoveredu">
+                    <a href="#educacion_view">
+
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/educacion.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divedu">
+                                <div>EDUCACIÓN</div>
+                            </div>
+                            <div id="backeducard" class="backcard" hidden>
+                                <div>Educación</div>
+                                <p class="roboto-bold">19 MIL 772 MDP</p>
+                                <p class="roboto-bold">35%</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <img class="img-responsive" src="img/hospital.png" alt="">
@@ -59,3 +75,22 @@
 
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+        /**
+         * Script para los efectos de los rubros
+         */
+
+        $("#hoveredu").hover(function () {
+            $("#divedu").hide('slow');
+            $("#backeducard").show('slow');
+        }, function () {
+            $("#divedu").show('slow');
+            $("#backeducard").hide('slow');
+        });
+        /**
+         * Fin del Script
+         */
+    });
+
+</script>

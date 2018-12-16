@@ -1,6 +1,95 @@
 body{
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 0 !important;
+    overflow-x: hidden;
 }
+a{
+    text-decoration: none !important;
+    color:inherit;
+}
+/**
+Rubros
+ */
+.divmas {
+    display: inline-block;
+    visibility: visible;
+    width: 54%;
+}
+.divmenos {
+    visibility: hidden;
+    width: 0;
+}
+#divedu {
+    background-color: #99c00b;
+}
+#divedu:hover{
+    display: none;
+}
+#divedu > div {
+    padding-top: 25px;
+    font-weight: 700;
+}
+.div_rub_img
+{
+    width:60%;
+}
+.divrub_relative {
+    position: relative;
+    height: 220px;
+}
+.divrub {
+    visibility: visible;
+    width: 0%;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    z-index: -1;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+.divrub:hover{
+    background-color:green;
+}
+
+.divrub > div:first-child {
+    color: #fff;
+    height: 80px;
+    text-align: right;
+    padding-right: 22px;
+}
+#backeducard {
+    border: 1px solid #98bf13;
+    border-left: solid #98bf13 38px;
+}
+#backeducard > div:first-child {
+    background: #98bf13;
+}
+.backcard {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    font-size: 15px;
+}
+
+.backcard > p {
+    text-align: center;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.backcard > div:first-child {
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+/**
+Fin de rubros
+ */
+
 /*estilo de barra*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #ffffff;
