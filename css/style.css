@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*estilo de barra*/
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     color: #ffffff;
     font-weight: bold;
@@ -50,11 +54,22 @@ dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     padding-bottom: 5px;
 }
 /*fin de estilos de navbar*/
+
+/*estilo de textos*/
+.colorsize{
+    color:#4d4d4d; font-size: 45px;
+}
+
+/*fin de estilo de textos*/
 #video_principal{
     padding-top:100px;padding-bottom: 70px;
 }
 #rubros{
     padding-top:50px;padding-bottom: 50px;
+}
+.div_rub_img
+{
+    width:60%;
 }
 h2{
     color:#4d4d4d;
@@ -64,4 +79,8 @@ h2{
 }
 .tvideos{
     padding-top:80px;padding-bottom: 70px;
+}
+footer{
+    background-color:gray;
+    color:white;
 }

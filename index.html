@@ -7,75 +7,106 @@
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"  crossorigin="anonymous">
         <!-- Optional theme -->
         <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body ng-app="myApp">
 
         <div class="navbar navbar-inverse navbar-fixed-top" style="background-color: white;">
-        <div class="container-fluid">
-            <div class="navbar-header">
+            <div class="container-fluid">
+                <div class="navbar-header">
 
-                <!-- <img style="width:200px; height:200px;" class="img-responsive" src="images/square_cuentas.png" />-->
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                    <!-- <img style="width:200px; height:200px;" class="img-responsive" src="images/square_cuentas.png" />-->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-                <div id="divabs">
-                    <a href="">
-                        <img class="img-responsive" width="180" height="180" src="img/square_cuentas.png" />
-                    </a>
-                </div>
-                <div id="divabs2" hidden>
-                    <a href="">
-                        <img class="img-responsive" width="70" height="70" src="img/square_cuentas.png"/>
-                    </a>
-                </div>
-                <div id="ctanual">2017</div>
-            </div>
-            <div class="row roboto-light" id="navtelmail">
-                <div id="stilo_mail">
-                    <i class="glyphicon glyphicon-envelope"></i>
-                    <span class="roboto-light">soncuentasclaras@sonora.gob.mx</span>
-                </div>
-            </div>
-
-            <div class="navbar-collapse collapse" id="menudos">
-
-                <ul class="nav navbar-nav">
-                    <li><a class="link-1" runat="server" href="~/">Inicio</a></li>
-                    <li><a class="link-1" runat="server" href="/#Rubros">Menú</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle link-1" data-toggle="dropdown" role="button"
-                           aria-haspopup="true" aria-expanded="false">
-                            Rubros<span class="caret"></span>
+                    <div id="divabs">
+                        <a href="">
+                            <img class="img-responsive" width="180" height="180" src="img/square_cuentas.png" />
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">Educacion</a></li>
-                            <li><a href="">Salud</a></li>
-                            <li><a href="">Desarrollo Económico</a></li>
-                            <li><a href="">Seguridad y Gobernabilidad</a></li>
-                            <li><a href="">Deuda Pública</a></li>
-                            <li><a href="">Desarrollo Social</a></li>
-                            <li>
-                                <a href="">
-                                    <div>Otros Poderes</div>
-                                    <div> y Órganos Autónomos</div>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--<li><a runat="server" href="~/Servicios">Servicios</a></li>-->
-                    <li><a class="link-1" href="#Contact">Contacto</a></li>
-                </ul>
+                    </div>
+                    <div id="divabs2" hidden>
+                        <a href="">
+                            <img class="img-responsive" width="70" height="70" src="img/square_cuentas.png"/>
+                        </a>
+                    </div>
+                    <div id="ctanual">2017</div>
+                </div>
+                <div class="row roboto-light" id="navtelmail">
+                    <div id="stilo_mail">
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        <span class="roboto-light">soncuentasclaras@sonora.gob.mx</span>
+                    </div>
+                </div>
+
+                <div class="navbar-collapse collapse" id="menudos">
+
+                    <ul class="nav navbar-nav">
+                        <li><a class="link-1" runat="server" href="~/">Inicio</a></li>
+                        <li><a class="link-1" runat="server" href="/#Rubros">Menú</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle link-1" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">
+                                Rubros<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">Educacion</a></li>
+                                <li><a href="">Salud</a></li>
+                                <li><a href="">Desarrollo Económico</a></li>
+                                <li><a href="">Seguridad y Gobernabilidad</a></li>
+                                <li><a href="">Deuda Pública</a></li>
+                                <li><a href="">Desarrollo Social</a></li>
+                                <li>
+                                    <a href="">
+                                        <div>Otros Poderes</div>
+                                        <div> y Órganos Autónomos</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!--<li><a runat="server" href="~/Servicios">Servicios</a></li>-->
+                        <li><a class="link-1" href="#Contact">Contacto</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
         <div ng-view></div>
+
+        <footer>
+            <div class="row centrartexto roboto-light" style="padding-top: 35px;">
+                <div class="col-md-3">
+                    <a href="http://www.sonora.gob.mx/acerca-del-portal/" target="_blank" class="roboto-light" style="font-size: 19px;">
+                        Acerca del Portal
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.sonora.gob.mx/denuncia-ciudadana/" target="_blank" class="roboto-light" style="font-size: 19px;">
+                        Denuncia Ciudadana
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.sonora.gob.mx/politicas-uso/" target="_blank" class="roboto-light" style="font-size: 19px;">
+                        Políticas de Uso y Privacidad
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="http://www.sonora.gob.mx/mapa-del-sitio/" target="_blank" class="roboto-light" style="font-size: 19px;">
+                        Mapa del Sitio
+                    </a>
+                </div>
+            </div>
+            <div class="row centrartexto roboto-light" style="margin-top:100px;">
+                <p>2015-2021 Portal del Gobierno del Estado de Sonora, Secretaria de Hacienda.<br />
+                    Todos los Derechos Reservados.
+                </p>
+            </div>
+        </footer>
 
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
