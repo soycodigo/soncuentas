@@ -50,9 +50,11 @@ dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     padding-bottom: 5px;
 }
 /*fin de estilos de navbar*/
-
+#video_principal{
+    padding-top:100px;padding-bottom: 70px;
+}
 #rubros{
-    padding-top:80px;padding-bottom: 70px;
+    padding-top:50px;padding-bottom: 50px;
 }
 h2{
     color:#4d4d4d;
