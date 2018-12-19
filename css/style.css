@@ -66,6 +66,7 @@ Rubros
 #divedu {
     background-color: #99c00b;
 }
+/*educacion effectos rubros*/
 #divedu:hover{
     display: none;
 }
@@ -73,6 +74,32 @@ Rubros
     padding-top: 25px;
     font-weight: 700;
 }
+#backeducard {
+    border: 1px solid #98bf13;
+    border-left: solid #98bf13 38px;
+}
+#backeducard > div:first-child {
+    background: #98bf13;
+}
+/*final educacion efectos rubros*/
+#divsalud {
+    background-color: #99c00b;
+}
+#divsalud:hover{
+    display: none;
+}
+#divsalud > div {
+    padding-top: 25px;
+    font-weight: 700;
+}
+#backsaludcard {
+    border: 1px solid #E00003;
+    border-left: solid #E00003 38px;
+}
+#backsaludcard > div:first-child {
+    background: #E00003;
+}
+/*final salud effectos rubros*/
 .div_rub_img
 {
     width:60%;
@@ -101,13 +128,7 @@ Rubros
     text-align: right;
     padding-right: 22px;
 }
-#backeducard {
-    border: 1px solid #98bf13;
-    border-left: solid #98bf13 38px;
-}
-#backeducard > div:first-child {
-    background: #98bf13;
-}
+
 .backcard {
     width: 80%;
     height: auto;
@@ -116,7 +137,14 @@ Rubros
     left: 15%;
     font-size: 15px;
 }
-
+.backcardsalud{
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 15px;
+}
 .backcard > p {
     text-align: center;
     color: #000;

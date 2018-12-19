@@ -51,8 +51,22 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img class="img-responsive" src="img/hospital.png" alt="">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoversalud">
+                    <a href="#!salud">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" src="img/hospital.png" alt="">
+                        </div>
+                        <div class="divrub">
+                            <div id="divsalud">
+                                <div>SALUD</div>
+                            </div>
+                        </div>
+                        <div id="backsaludcard" class="backcardsalud" hidden>
+                            <div>Salud</div>
+                            <p class="roboto-bold">19 MIL 772 MDP</p>
+                            <p class="roboto-bold">35%</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <img class="img-responsive" src="img/seguridad.png" alt="">
@@ -86,6 +100,13 @@
         }, function () {
             $("#divedu").show('slow');
             $("#backeducard").hide('slow');
+        });
+        $("#hoversalud").hover(function () {
+            $("#divsalud").hide('slow');
+            $("#backsaludcard").show('slow');
+        }, function () {
+            $("#divsalud").show('slow');
+            $("#backsaludcard").hide('slow');
         });
         /**
          * Fin del Script
