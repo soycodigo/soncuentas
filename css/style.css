@@ -7,6 +7,35 @@ a{
     text-decoration: none !important;
     color:inherit;
 }
+/*estilo del video*/
+.videovis {
+    width: 80%;
+}
+
+.wrapper {
+    display: table;
+    width: auto;
+    position: relative;
+    margin-top: 73px;
+    text-align:center;
+}
+
+.playpause {
+    background-image: url('../img/play.png');
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    margin: auto;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.7;
+}
+/*fin del estilo video*/
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero_Sonora_Main.jpg");
     height: 500px;
@@ -83,7 +112,7 @@ Rubros
 }
 /*final educacion efectos rubros*/
 #divsalud {
-    background-color: #99c00b;
+    background-color: #E00003;
 }
 #divsalud:hover{
     display: none;
@@ -137,14 +166,7 @@ Rubros
     left: 15%;
     font-size: 15px;
 }
-.backcardsalud{
-    width: 80%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 25%;
-    font-size: 15px;
-}
+
 .backcard > p {
     text-align: center;
     color: #000;

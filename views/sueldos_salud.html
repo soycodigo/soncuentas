@@ -1,0 +1,24 @@
+<div class="wrapper">
+    <video class="videovis" autoplay>
+        <source src="videos/sueldos_salud.mp4" type="video/mp4" />
+    </video>
+    <div class="playpause" hidden></div>
+</div>
+<script>
+    $(document).ready(function () {
+        $(".videovis").on('ended', function (e) {
+            $(".playpause").fadeIn();
+        });
+        $('.videovis').parent().click(function () {
+            if ($(this).children(".videovis").get(0).paused) {
+                $(this).children(".videovis").get(0).play();
+                $(this).children(".playpause").fadeOut();
+            } else {
+                $(this).children(".videovis").get(0).pause();
+                $(this).children(".playpause").fadeIn();
+            }
+        });
+    });
+
+
+</script>
