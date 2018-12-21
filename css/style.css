@@ -7,6 +7,24 @@ a{
     text-decoration: none !important;
     color:inherit;
 }
+.cuentabtn {
+    background-color: #ff9201;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+.volver {
+    background-color: gray;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+.btnsvid {
+    padding-top: 15px;
+    padding-bottom: 45px;
+    margin-right: 115px !important;
+    margin-left: 115px !important;
+}
 /*estilo del video*/
 .videovis {
     width: 80%;
