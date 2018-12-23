@@ -16,5 +16,9 @@ app.config(function($routeProvider) {
             templateUrl : "views/gastos_operacion_salud.html"
         }).when("/medicinas_salud", {
             templateUrl : "views/medicinas_salud.html"
+        }).when("/desarrollo_economico", {
+            templateUrl : "views/desarrollo_economico_view.html"
+        }).when("/rescate_carretero", {
+            templateUrl : "views/rescate_carretero.html"
         });
 });
