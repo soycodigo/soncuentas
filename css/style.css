@@ -145,6 +145,25 @@ Rubros
 #backsaludcard > div:first-child {
     background: #E00003;
 }
+/*desarollo económico*/
+#divdesa {
+    background-color: #C4C3C8;
+}
+#divdesa:hover{
+    display: none;
+}
+#divdesa > div {
+    padding-top: 25px;
+    font-weight: 700;
+}
+#backdesacard {
+    border: 1px solid #C4C3C8;
+    border-left: solid #C4C3C8 38px;
+}
+#backdesacard > div:first-child {
+    background: #C4C3C8;
+}
+
 /*final salud effectos rubros*/
 .div_rub_img
 {

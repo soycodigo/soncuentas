@@ -68,6 +68,23 @@
                     </div>
                     </a>
                 </div>
+                <div class="col-lg-4 col-md-4 col-sm-12"  id="hoverdesa">
+                    <a href="#!desarrollo_economico">
+                        <div class="div_rub_img">
+                            <img class="img-responsive"  style="display:inline-block;" src="img/desarrolloeconomico.png" />
+                        </div>
+                        <div class="divrub"style="display:inline-block;">
+                            <div id="divdesa">
+                                <div>DESARROLLO ECONÓMICO</div>
+                            </div>
+                            <div id="backdesacard" class="backcard" hidden>
+                                <div>Desarrollo Económico</div>
+                                <p class="roboto-bold">3 mil 280. 6 MDP</p>
+                                <!--<p class="roboto-bold">21%</p>-->
+                            </div>
+                        </div>
+                    </a>
+                </div>
                <!-- <div class="col-lg-4 col-md-4 col-sm-12">
                     <img class="img-responsive" src="img/seguridad.png" alt="">
                 </div>-->
@@ -108,6 +125,13 @@
         }, function () {
             $("#divsalud").show('slow');
             $("#backsaludcard").hide('slow');
+        });
+        $("#hoverdesa").hover(function () {
+            $("#divdesa").hide('slow');
+            $("#backdesacard").show('slow');
+        }, function () {
+            $("#divdesa").show('slow');
+            $("#backdesacard").hide('slow');
         });
         /**
          * Fin del Script
