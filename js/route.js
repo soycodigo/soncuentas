@@ -20,5 +20,9 @@ app.config(function($routeProvider) {
             templateUrl : "views/desarrollo_economico_view.html"
         }).when("/rescate_carretero", {
             templateUrl : "views/rescate_carretero.html"
+        }).when("/transporte", {
+            templateUrl : "views/transporte.html"
+        }).when("/de_gastos_de_operacion", {
+            templateUrl : "views/de_gastos_de_operacion.html"
         });
 });
