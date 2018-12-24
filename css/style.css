@@ -7,6 +7,9 @@ a{
     text-decoration: none !important;
     color:inherit;
 }
+.padding-section{
+    padding-top: 10%;
+}
 .cuentabtn {
     background-color: #ff9201;
     color: white;
@@ -25,6 +28,35 @@ a{
     margin-right: 115px !important;
     margin-left: 115px !important;
 }
+/*estilo para títulos en alfombras*/
+.cont_titulo {
+    position: relative;
+    width: 410px;
+    height: 100px;
+    margin: 0 auto;
+}
+.alfombra_titulo {
+    border: 1px solid #000;
+    border-bottom: none;
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+}
+#deco_cuadrado {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #b2b1b6;
+    width: 25px;
+    height: 25px;
+}
+.alfombra_titulo #decofont {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+}
+/*fin de estilo para títulos en alfombras*/
+
 /*estilo del video*/
 .videovis {
     width: 80%;

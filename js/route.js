@@ -24,5 +24,11 @@ app.config(function($routeProvider) {
             templateUrl : "views/transporte.html"
         }).when("/de_gastos_de_operacion", {
             templateUrl : "views/de_gastos_de_operacion.html"
+        }).when("/agricultura", {
+            templateUrl : "views/agricultura.html"
+        }).when("/pesca", {
+            templateUrl : "views/pesca.html"
+        }).when("/cea", {
+            templateUrl : "views/cea.html"
         });
 });
