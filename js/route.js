@@ -18,6 +18,8 @@ app.config(function($routeProvider) {
             templateUrl : "views/medicinas_salud.html"
         }).when("/desarrollo_economico", {
             templateUrl : "views/desarrollo_economico_view.html"
+        }).when("/de_sueldos", {
+            templateUrl : "views/de_sueldos.html"
         }).when("/rescate_carretero", {
             templateUrl : "views/rescate_carretero.html"
         }).when("/transporte", {
@@ -26,9 +28,27 @@ app.config(function($routeProvider) {
             templateUrl : "views/de_gastos_de_operacion.html"
         }).when("/agricultura", {
             templateUrl : "views/agricultura.html"
+        }).when("/ganaderia", {
+            templateUrl : "views/ganaderia.html"
         }).when("/pesca", {
             templateUrl : "views/pesca.html"
         }).when("/cea", {
             templateUrl : "views/cea.html"
+        }).when("/deiaes", {
+            templateUrl : "views/deiaes.html"
+        }).when("/de_fideicomiso", {
+            templateUrl : "views/de_fideicomiso.html"
+        }).when("/de_apoyos", {
+            templateUrl : "views/de_apoyos.html"
+        }).when("/turismo", {
+            templateUrl : "views/de_turismo.html"
+        }).when("/de_obras_turisticas", {
+            templateUrl : "views/de_obras_turisticas.html"
+        }).when("/de_atraccion", {
+            templateUrl : "views/de_atraccion.html"
+        }).when("/de_pymes", {
+            templateUrl : "views/de_pymes.html"
+        }).when("/de_ciencia", {
+            templateUrl : "views/de_ciencia.html"
         });
 });
