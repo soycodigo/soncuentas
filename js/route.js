@@ -24,6 +24,16 @@ app.config(function($routeProvider) {
             templateUrl : "views/alimentacion_hospitalaria.html"
         }).when("/dif", {
             templateUrl : "views/dif.html"
+        }).when("/instituto_juventud", {
+            templateUrl : "views/instituto_juventud.html"
+        }).when("/jornadas_salud", {
+            templateUrl : "views/jornadas_salud.html"
+        }).when("/ayudas_sociales", {
+            templateUrl : "views/ayudas_sociales.html"
+        }).when("/salud_mental", {
+            templateUrl : "views/salud_mental.html"
+        }).when("/asistencia_social", {
+            templateUrl : "views/asistencia_social.html"
         }).when("/desarrollo_economico", {
             templateUrl : "views/desarrollo_economico_view.html"
         }).when("/de_sueldos", {
