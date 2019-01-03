@@ -16,6 +16,14 @@ app.config(function($routeProvider) {
             templateUrl : "views/gastos_operacion_salud.html"
         }).when("/medicinas_salud", {
             templateUrl : "views/medicinas_salud.html"
+        }).when("/equipamiento", {
+            templateUrl : "views/salud_equipamiento.html"
+        }).when("/prevencion_enfermedades", {
+            templateUrl : "views/prevencion_enfermedades.html"
+        }).when("/alimentacion_hospitalaria", {
+            templateUrl : "views/alimentacion_hospitalaria.html"
+        }).when("/dif", {
+            templateUrl : "views/dif.html"
         }).when("/desarrollo_economico", {
             templateUrl : "views/desarrollo_economico_view.html"
         }).when("/de_sueldos", {
