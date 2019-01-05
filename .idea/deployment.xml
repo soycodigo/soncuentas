@@ -5,7 +5,8 @@
       <paths name="soncuentasprueba">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html/hlimon.com.mx/soncuentas2017" local="$PROJECT_DIR$" web="/public_html/hlimon.com.mx/soncuentas2017" />
+            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/public_html" />
+            <mapping local="" />
           </mappings>
         </serverdata>
       </paths>
