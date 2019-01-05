@@ -50,7 +50,20 @@ a{
     width: 25px;
     height: 25px;
 }
+#dedu_cuadrado{
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #9ACD32;
+    width: 25px;
+    height: 25px;
+}
 .alfombra_titulo #decofont {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.alfombra_titulo #dedufont{
     text-align: center;
     margin-top: 25px;
     font-size: 32px;
@@ -86,8 +99,8 @@ a{
 }
 /*fin del estilo video*/
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero_Sonora_Main.jpg");
-    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ilustracion-sonora.png");
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -338,5 +351,13 @@ footer{
 /*Estilo de alformbras*/
 .fondoverde{
     background-color:yellowgreen;padding: 15px 0;
+}
+.contenido_alfombra{
+    width: 1080px;text-align: center;margin: 0 auto;position: relative;height: 300px;
+}
+.cajas_edu{
+    position: absolute;
+    padding: 0;
+    bottom: 0;
 }
 /*fin de Estilo de alformbras*/

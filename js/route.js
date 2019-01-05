@@ -8,6 +8,26 @@ app.config(function($routeProvider) {
             templateUrl : "views/home.html"
         }).when("/educacion", {
             templateUrl : "views/educacion_view.html"
+        }).when("/sueldos_educacion", {
+            templateUrl : "views/sueldos_educacion.html"
+        }).when("/gastos_operacion_educacion", {
+            templateUrl : "views/gastos_operacion_educacion.html"
+        }).when("/rehabilitacion_escuelas", {
+            templateUrl : "views/rehabilitacion_escuelas.html"
+        }).when("/uniformes", {
+            templateUrl : "views/uniformes.html"
+        }).when("/programas_federales", {
+            templateUrl : "views/programas_federales.html"
+        }).when("/construccion_aulas", {
+            templateUrl : "views/construccion_aulas.html"
+        }).when("/mobiliario", {
+            templateUrl : "views/mobiliario.html"
+        }).when("/becas", {
+            templateUrl : "views/becas.html"
+        }).when("/utiles_escolares", {
+            templateUrl : "views/utiles_escolares.html"
+        }).when("/proyectos_educacion", {
+            templateUrl : "views/proyectos_educacion.html"
         }).when("/salud", {
             templateUrl : "views/salud_view.html"
         }).when("/sueldos_salud", {
