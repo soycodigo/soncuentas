@@ -36,6 +36,10 @@ app.config(function($routeProvider) {
             templateUrl : "views/gastos_operacion_salud.html"
         }).when("/medicinas_salud", {
             templateUrl : "views/medicinas_salud.html"
+        }).when("/rehabilitacion_salud", {
+            templateUrl : "views/rehabilitacion_salud.html"
+        }).when("/isssteson", {
+            templateUrl : "views/isssteson.html"
         }).when("/equipamiento", {
             templateUrl : "views/salud_equipamiento.html"
         }).when("/prevencion_enfermedades", {
