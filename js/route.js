@@ -92,5 +92,27 @@ app.config(function($routeProvider) {
             templateUrl : "views/de_pymes.html"
         }).when("/de_ciencia", {
             templateUrl : "views/de_ciencia.html"
+        }).when("/seguridad", {
+            templateUrl : "views/seguridad_view.html"
+        }).when("/policia_estatal", {
+            templateUrl : "views/policia_estatal.html"
+        }).when("/fiscalia_estado", {
+            templateUrl : "views/fiscalia_estado.html"
+        }).when("/ceresos", {
+            templateUrl : "views/ceresos.html"
+        }).when("/centro_emergencias", {
+            templateUrl : "views/centro_emergencias.html"
+        }).when("/prevencion_delito", {
+            templateUrl : "views/prevencion_delito.html"
+        }).when("/seg_gastos_operacion", {
+            templateUrl : "views/seg_gastos_operacion.html"
+        }).when("/justicia_penal", {
+            templateUrl : "views/justicia_penal.html"
+        }).when("/instituto_policia", {
+            templateUrl : "views/instituto_policia.html"
+        }).when("/estadistica", {
+            templateUrl : "views/estadistica.html"
+        }).when("/centrocontrol", {
+            templateUrl : "views/centrocontrol.html"
         });
 });

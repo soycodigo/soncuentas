@@ -71,12 +71,25 @@ a{
     width: 25px;
     height: 25px;
 }
+#seguridad_cuadrado{
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #737277;
+    width: 25px;
+    height: 25px;
+}
 .alfombra_titulo #decofont {
     text-align: center;
     margin-top: 25px;
     font-size: 32px;
 }
 .alfombra_titulo #dedufont{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.alfombra_titulo #seguridadfont{
     text-align: center;
     margin-top: 25px;
     font-size: 32px;
