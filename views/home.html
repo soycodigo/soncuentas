@@ -85,21 +85,64 @@
                         </div>
                     </a>
                 </div>
-               <!-- <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img class="img-responsive" src="img/seguridad.png" alt="">
-                </div>-->
             </div>
-           <!-- <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img class="img-responsive" src="img/desarrolloeconomico.png" alt="">
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoverseguridad">
+                    <a href="#!">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/seguridad.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divseguridad">
+                                <div>SEGURIDAD Y GOBERNABILIDAD</div>
+                            </div>
+                            <div id="backseguridad" class="backcard" hidden>
+                                <div>Seg. y Gob.</div>
+                                <p class="roboto-bold">3 mil 376.7 MDP</p>
+                                <!--<p class="roboto-bold">35%</p>-->
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img class="img-responsive" src="img/poderesauto.png" alt="">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoverotros">
+                    <a href="#!">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/otrospoderes.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divotros">
+                                <div>OTROS PODERES Y ORGANOS AUTONOMOS</div>
+                            </div>
+                            <div id="backotros" class="backcard" hidden>
+                                <div>Otros Pod. y Org. Aut.</div>
+                                <p class="roboto-bold"> 2 mil 541.4 MDP</p>
+                                <!--<p class="roboto-bold">35%</p>-->
+                            </div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img class="img-responsive" src="img/desarrollosocial.png" alt="">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoversocial">
+                    <a href="#!">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/desarrollo_social.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divsocial">
+                                <div>DESARROLLO SOCIAL</div>
+                            </div>
+                            <div id="backsocial" class="backcard" hidden>
+                                <div>Desarrollo Social</div>
+                                <p class="roboto-bold"> 3 mil 327.3 MDP</p>
+                                <!--<p class="roboto-bold">35%</p>-->
+                            </div>
+                        </div>
+                    </a>
                 </div>
-            </div>-->
+            </div>
 
         </section>
 
@@ -132,6 +175,27 @@
         }, function () {
             $("#divdesa").show('slow');
             $("#backdesacard").hide('slow');
+        });
+        $("#hoverseguridad").hover(function () {
+            $("#divseguridad").hide('slow');
+            $("#backseguridad").show('slow');
+        }, function () {
+            $("#divseguridad").show('slow');
+            $("#backseguridad").hide('slow');
+        });
+        $("#hoverotros").hover(function () {
+            $("#divotros").hide('slow');
+            $("#backotros").show('slow');
+        }, function () {
+            $("#divotros").show('slow');
+            $("#backotros").hide('slow');
+        });
+        $("#hoversocial").hover(function () {
+            $("#divsocial").hide('slow');
+            $("#backsocial").show('slow');
+        }, function () {
+            $("#divsocial").show('slow');
+            $("#backsocial").hide('slow');
         });
         /**
          * Fin del Script

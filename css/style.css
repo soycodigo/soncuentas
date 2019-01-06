@@ -7,6 +7,19 @@ a{
     text-decoration: none !important;
     color:inherit;
 }
+.share{
+    width: 20%;
+    min-width: 180px;
+    margin: 30px auto;
+    border: 2px solid #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 .padding-section{
     padding-top: 10%;
 }
@@ -99,7 +112,7 @@ a{
 }
 /*fin del estilo video*/
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/ilustracion-sonora.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/centrogobierno_grises.jpg");
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -208,7 +221,65 @@ Rubros
 #backdesacard > div:first-child {
     background: #C4C3C8;
 }
+/*seguridad*/
 
+#divseguridad{
+    background-color: #737277;
+}
+#divseguridad:hover{
+    display: none;
+}
+#divseguridad > div{
+    padding-top: 25px;
+    font-weight: 700;
+}
+#backseguridad{
+    border: 1px solid #737277;
+    border-left: solid #737277 38px;
+}
+#backseguridad > div:first-child {
+    background: #737277;
+}
+/*otros poderes*/
+#divotros{
+    background-color: #F3A40E;
+}
+#divotros:hover{
+    display: none;
+}
+#divotros > div{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 52px;
+}
+#backotros{
+    border: 1px solid #F3A40E;
+    border-left: solid #F3A40E 38px;
+}
+#backotros > div:first-child {
+    background: #F3A40E;
+}
+/*desarrollo social*/
+#divsocial{
+    background-color: #910780;
+}
+#divsocial:hover{
+    display: none;
+}
+#divsocial > div{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 52px;
+}
+#backsocial{
+    border: 1px solid #910780;
+    border-left: solid #910780 38px;
+}
+#backsocial > div:first-child {
+    background: #910780;
+}
 /*final salud effectos rubros*/
 .div_rub_img
 {
