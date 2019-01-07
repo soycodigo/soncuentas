@@ -7,6 +7,19 @@ a{
     text-decoration: none !important;
     color:inherit;
 }
+.parallaxsonora{
+    /* The image used */
+    background-image: url("../img/ilustracion-sonora.png");
+
+    /* Set a specific height */
+    height: 800px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .share{
     width: 20%;
     min-width: 180px;
