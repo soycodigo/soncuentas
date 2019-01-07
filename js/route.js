@@ -116,5 +116,19 @@ app.config(function($routeProvider) {
             templateUrl : "views/centrocontrol.html"
         }).when("/desarrollo_social", {
             templateUrl : "views/desarrollo_social_view.html"
+        }).when("/desoc_comision", {
+            templateUrl : "views/desoc_comision.html"
+        }).when("/desoc_vivienda", {
+            templateUrl : "views/desoc_vivienda.html"
+        }).when("/desoc_infraestructura", {
+            templateUrl : "views/desoc_infraestructura.html"
+        }).when("/desoc_gastos", {
+            templateUrl : "views/desoc_gastos.html"
+        }).when("/desoc_recarpeteo", {
+            templateUrl : "views/desoc_recarpeteo.html"
+        }).when("/desoc_sueldos", {
+            templateUrl : "views/desoc_sueldos.html"
+        }).when("/desoc_ecologia", {
+            templateUrl : "views/desoc_ecologia.html"
         });
 });
