@@ -114,5 +114,7 @@ app.config(function($routeProvider) {
             templateUrl : "views/estadistica.html"
         }).when("/centrocontrol", {
             templateUrl : "views/centrocontrol.html"
+        }).when("/desarrollo_social", {
+            templateUrl : "views/desarrollo_social_view.html"
         });
 });
