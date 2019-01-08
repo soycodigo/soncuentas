@@ -140,5 +140,11 @@ app.config(function($routeProvider) {
             templateUrl : "views/ag-gastos.html"
         }).when("/ag-ejecutivo", {
             templateUrl : "views/ag-ejecutivo.html"
+        }).when("/ag-hacienda", {
+            templateUrl : "views/hacienda.html"
+        }).when("/ag-secretaria-tecnica", {
+            templateUrl : "views/secretaria_tecnica.html"
+        }).when("/ag-contraluria", {
+            templateUrl : "views/ag-contraluria.html"
         });
 });
