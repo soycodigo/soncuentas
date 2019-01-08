@@ -107,19 +107,19 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoverotros">
-                    <a href="#!">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoveradmon">
+                    <a href="#!administracion_view">
                         <div class="div_rub_img">
-                            <img class="img-responsive" style="display:inline-block;" src="img/otrospoderes.png" />
+                            <img class="img-responsive" style="display:inline-block;" src="img/deuda_publica.png" />
                         </div>
 
                         <div class="divrub">
-                            <div  id="divotros">
-                                <div>OTROS PODERES Y ORGANOS AUTONOMOS</div>
+                            <div  id="divadmon">
+                                <div>ADMINISTRACIÓN DE GOBIERNO</div>
                             </div>
-                            <div id="backotros" class="backcard" hidden>
-                                <div>Otros Pod. y Org. Aut.</div>
-                                <p class="roboto-bold"> 2 mil 541.4 MDP</p>
+                            <div id="backadmon" class="backcard" hidden>
+                                <div>Admon. de Gobierno</div>
+                                <p class="roboto-bold">3 mil 260 MDP</p>
                                 <!--<p class="roboto-bold">35%</p>-->
                             </div>
                         </div>
@@ -197,6 +197,13 @@
         }, function () {
             $("#divsocial").show('slow');
             $("#backsocial").hide('slow');
+        });
+        $("#hoveradmon").hover(function () {
+            $("#divadmon").hide('slow');
+            $("#backadmon").show('slow');
+        }, function () {
+            $("#divadmon").show('slow');
+            $("#backadmon").hide('slow');
         });
         /**
          * Fin del Script

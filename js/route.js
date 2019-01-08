@@ -130,5 +130,15 @@ app.config(function($routeProvider) {
             templateUrl : "views/desoc_sueldos.html"
         }).when("/desoc_ecologia", {
             templateUrl : "views/desoc_ecologia.html"
+        }).when("/administracion_view", {
+            templateUrl : "views/administracion_view.html"
+        }).when("/ag-secretariagobierno", {
+            templateUrl : "views/ag-secretariagobierno.html"
+        }).when("/ag-consejeria", {
+            templateUrl : "views/ag-consejeria.html"
+        }).when("/ag-gastos", {
+            templateUrl : "views/ag-gastos.html"
+        }).when("/ag-ejecutivo", {
+            templateUrl : "views/ag-ejecutivo.html"
         });
 });

@@ -157,6 +157,7 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: 10000;
 }
 
 .hero-text {
@@ -298,6 +299,26 @@ Rubros
 }
 #backotros > div:first-child {
     background: #F3A40E;
+}
+/*administracion de gobierno*/
+#divadmon{
+    background-color: #4587bf;
+}
+#divadmon:hover{
+    display: none;
+}
+#divadmon > div{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 52px;
+}
+#backadmon{
+    border: 1px solid #4587bf;
+    border-left: solid #4587bf 38px;
+}
+#backadmon > div:first-child {
+    background: #4587bf;
 }
 /*desarrollo social*/
 #divsocial{
