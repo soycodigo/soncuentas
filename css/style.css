@@ -100,6 +100,14 @@ a{
     width: 25px;
     height: 25px;
 }
+#ag_cuadrado{
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: #4587bf;
+    width: 25px;
+    height: 25px;
+}
 .alfombra_titulo #decofont {
     text-align: center;
     margin-top: 25px;
@@ -116,6 +124,11 @@ a{
     font-size: 32px;
 }
 .alfombra_titulo #desocfont{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 32px;
+}
+.alfombra_titulo #agfont{
     text-align: center;
     margin-top: 25px;
     font-size: 32px;
