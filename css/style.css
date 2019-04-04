@@ -340,6 +340,26 @@ Rubros
 #backotros > div:first-child {
     background: #F3A40E;
 }
+/*municipios*/
+#divmunicipios{
+    background-color: #2e8e43;
+}
+#divmunicipios:hover{
+    display: none;
+}
+#divmunicipios > div{
+    padding-top: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 52px;
+}
+#backmunicipios{
+    border: 1px solid #2e8e43;
+    border-left: solid #2e8e43 38px;
+}
+#backmunicipios > div:first-child {
+    background: #2e8e43;
+}
 /*administracion de gobierno*/
 #divadmon{
     background-color: #4587bf;

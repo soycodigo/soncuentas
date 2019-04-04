@@ -20,7 +20,7 @@
                     <h1>Bienvenido a</h1>
                     <h2 class="colorsize" style="font-weight: bold;">Son Cuentas Claras</h2>
                     <h2 class="roboto-light">Enero - Diciembre 2017</h2>
-                    <h2 class="roboto-bold">$66 mil 317.6 MDP</h2>
+                    <h2 class="roboto-bold">66 mil 317.6 MDP</h2>
                 </div>
             </div>
 
@@ -100,8 +100,8 @@
                                 <div>SEGURIDAD</div>
                             </div>
                             <div id="backseguridad" class="backcard" hidden>
-                                <div>Seg. y Gob.</div>
-                                <p class="roboto-bold">$ 3 mil 736.7 MDP</p>
+                                <div>Seguridad</div>
+                                <p class="roboto-bold"> 3 mil 736.7 MDP</p>
                                 <p class="roboto-bold">6%</p>
                             </div>
                         </div>
@@ -119,7 +119,7 @@
                             </div>
                             <div id="backadmon" class="backcard" hidden>
                                 <div>Admon. de Gobierno</div>
-                                <p class="roboto-bold">$ 3 mil 260 MDP </p>
+                                <p class="roboto-bold"> 3 mil 260 MDP </p>
                                 <p class="roboto-bold">5%</p>
                             </div>
                         </div>
@@ -159,7 +159,7 @@
                             </div>
                             <div id="backotros" class="backcard" hidden>
                                 <div>Otros Poderes</div>
-                                <p class="roboto-bold">$ 2 mil 541.4 MDP </p>
+                                <p class="roboto-bold"> 2 mil 541.4 MDP </p>
                                 <p class="roboto-bold">4%</p>
                             </div>
                         </div>
@@ -181,13 +181,29 @@
                                 <div>Deuda Pública</div>
                                 <p class="roboto-bold">3 mil 485.9 MDP</p>
                                 <div id="divdeuda_est">Reestructura y Revolvencia</div>
-                                <p class="roboto-bold">$ 4 mil 634.6 MDP </p>
+                                <p class="roboto-bold"> 4 mil 634.6 MDP </p>
                                 <p class="roboto-bold">11%</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative">
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hovermunicipios">
+                    <a href="#!municipios">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/municipios.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divmunicipios">
+                                <div>MUNICIPIOS</div>
+                            </div>
+                            <div id="backmunicipios" class="backcard" hidden>
+                                <div>Municipios</div>
+                                <p class="roboto-bold">7 mil 813.1 MDP </p>
+                                <p class="roboto-bold">12%</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
             </div>
@@ -202,6 +218,14 @@
         /**
          * Script para los efectos de los rubros
          */
+
+        $("#hovermunicipios").hover(function () {
+            $("#divmunicipios").hide('slow');
+            $("#backmunicipios").show('slow');
+        }, function () {
+            $("#divmunicipios").show('slow');
+            $("#backmunicipios").hide('slow');
+        });
 
         $("#hoverdeuda").hover(function () {
             $("#divdeuda").hide('slow');
