@@ -16,6 +16,8 @@ app.config(function($routeProvider) {
             templateUrl : "views/rehabilitacion_escuelas.html"
         }).when("/uniformes", {
             templateUrl : "views/uniformes.html"
+        }).when("/olaroja", {
+            templateUrl : "views/olaroja.html"
         }).when("/programas_federales", {
             templateUrl : "views/programas_federales.html"
         }).when("/construccion_aulas", {
@@ -148,5 +150,9 @@ app.config(function($routeProvider) {
             templateUrl : "views/ag-contraluria.html"
         }).when("/deudapublica", {
         templateUrl : "views/deudapublica.html"
+        }).when("/municipios", {
+        templateUrl : "views/municipios.html"
+    }).when("/otrospoderes", {
+        templateUrl : "views/otrospoderes.html"
     });
 });

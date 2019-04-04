@@ -566,3 +566,11 @@ footer{
     text-align: left;
 }
 /*fin de Estilo de alformbras*/
+
+#municipiospdf{
+    background-image: url('../img/screenmuni.jpg');
+    text-shadow: .1em .1em #333;
+    width: 333px;
+    height: 170px;
+    text-align: center;
+}
