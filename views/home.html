@@ -20,7 +20,7 @@
                     <h1>Bienvenido a</h1>
                     <h2 class="colorsize" style="font-weight: bold;">Son Cuentas Claras</h2>
                     <h2 class="roboto-light">Enero - Diciembre 2017</h2>
-                    <h2 class="roboto-bold">$45 MIL 957 MDP</h2>
+                    <h2 class="roboto-bold">$66 mil 317.6 MDP</h2>
                 </div>
             </div>
 
@@ -46,8 +46,8 @@
                             </div>
                             <div id="backeducard" class="backcard" hidden>
                                 <div>Educación</div>
-                                <p class="roboto-bold">2 mil 494. 3 MDP</p>
-                                <!--<p class="roboto-bold">35%</p>-->
+                                <p class="roboto-bold">22 mil 494.3 MDP </p>
+                                <p class="roboto-bold">34%</p>
                             </div>
                         </div>
                     </a>
@@ -63,8 +63,8 @@
                         </div>
                         <div id="backsaludcard" class="backcard" hidden>
                             <div>Salud</div>
-                            <p class="roboto-bold">11 mil 743.7 MDP</p>
-                            <!--<p class="roboto-bold">21%</p>-->
+                            <p class="roboto-bold">11 mil 743.7 MDP </p>
+                            <p class="roboto-bold">18%</p>
                         </div>
                     </div>
                     </a>
@@ -80,8 +80,8 @@
                             </div>
                             <div id="backdesacard" class="backcard" hidden>
                                 <div>Desarrollo Económico</div>
-                                <p class="roboto-bold">3 mil 280. 6 MDP</p>
-                                <!--<p class="roboto-bold">21%</p>-->
+                                <p class="roboto-bold">3 mil 280.6 MDP</p>
+                                <p class="roboto-bold">5%</p>
                             </div>
                         </div>
                     </a>
@@ -97,12 +97,12 @@
 
                         <div class="divrub">
                             <div  id="divseguridad">
-                                <div>SEGURIDAD Y GOBERNABILIDAD</div>
+                                <div>SEGURIDAD</div>
                             </div>
                             <div id="backseguridad" class="backcard" hidden>
                                 <div>Seg. y Gob.</div>
-                                <p class="roboto-bold">3 mil 376.7 MDP</p>
-                                <!--<p class="roboto-bold">35%</p>-->
+                                <p class="roboto-bold">$ 3 mil 736.7 MDP</p>
+                                <p class="roboto-bold">6%</p>
                             </div>
                         </div>
                     </a>
@@ -119,8 +119,8 @@
                             </div>
                             <div id="backadmon" class="backcard" hidden>
                                 <div>Admon. de Gobierno</div>
-                                <p class="roboto-bold">3 mil 260 MDP</p>
-                                <!--<p class="roboto-bold">35%</p>-->
+                                <p class="roboto-bold">$ 3 mil 260 MDP </p>
+                                <p class="roboto-bold">5%</p>
                             </div>
                         </div>
                     </a>
@@ -137,12 +137,59 @@
                             </div>
                             <div id="backsocial" class="backcard" hidden>
                                 <div>Desarrollo Social</div>
-                                <p class="roboto-bold"> 3 mil 327.3 MDP</p>
-                                <!--<p class="roboto-bold">35%</p>-->
+                                <p class="roboto-bold"> 3 mil 327.4 MDP</p>
+                                <p class="roboto-bold">5%</p>
                             </div>
                         </div>
                     </a>
                 </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoverotros">
+                    <a href="#!otrospoderes">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/otrospoderes.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divotros">
+                                <div>OTROS PODERES</div>
+                            </div>
+                            <div id="backotros" class="backcard" hidden>
+                                <div>Otros Poderes</div>
+                                <p class="roboto-bold">$ 2 mil 541.4 MDP </p>
+                                <p class="roboto-bold">4%</p>
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative" id="hoverdeuda">
+                    <a href="#!deudapublica">
+                        <div class="div_rub_img">
+                            <img class="img-responsive" style="display:inline-block;" src="img/deuda_publica_amarillo.png" />
+                        </div>
+
+                        <div class="divrub">
+                            <div  id="divdeuda">
+                                <div>DEUDA PÚBLICA</div>
+                            </div>
+                            <div id="backdeuda" class="backcard" hidden>
+                                <div>Deuda Pública</div>
+                                <p class="roboto-bold">3 mil 485.9 MDP</p>
+                                <div id="divdeuda_est">Reestructura y Revolvencia</div>
+                                <p class="roboto-bold">$ 4 mil 634.6 MDP </p>
+                                <p class="roboto-bold">11%</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 divrub_relative">
+                </div>
+
             </div>
 
         </section>
@@ -155,6 +202,14 @@
         /**
          * Script para los efectos de los rubros
          */
+
+        $("#hoverdeuda").hover(function () {
+            $("#divdeuda").hide('slow');
+            $("#backdeuda").show('slow');
+        }, function () {
+            $("#divdeuda").show('slow');
+            $("#backdeuda").hide('slow');
+        });
 
         $("#hoveredu").hover(function () {
             $("#divedu").hide('slow');

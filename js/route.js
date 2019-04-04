@@ -146,5 +146,7 @@ app.config(function($routeProvider) {
             templateUrl : "views/secretaria_tecnica.html"
         }).when("/ag-contraluria", {
             templateUrl : "views/ag-contraluria.html"
-        });
+        }).when("/deudapublica", {
+        templateUrl : "views/deudapublica.html"
+    });
 });

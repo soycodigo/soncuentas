@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0059dbf0-20e5-4903-a0db-126032948e3f" name="soncuentasprueba" url="http://xo7.x10hosting.com">
-        <fileTransfer host="xo7.x10hosting.com" port="21">
+      <webServer id="0059dbf0-20e5-4903-a0db-126032948e3f" name="soncuentasprueba" url="http://xo5.x10hosting.com">
+        <fileTransfer host="xo5.x10hosting.com" port="21">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

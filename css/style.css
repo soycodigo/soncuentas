@@ -239,6 +239,7 @@ Rubros
     background: #98bf13;
 }
 /*final educacion efectos rubros*/
+
 #divsalud {
     background-color: #E00003;
 }
@@ -274,6 +275,32 @@ Rubros
 #backdesacard > div:first-child {
     background: #C4C3C8;
 }
+
+/*deuda pública*/
+
+#divdeuda {
+    background-color: #c8b545;
+}
+#divdeuda:hover{
+    display: none;
+}
+#divdeuda > div {
+    padding-top: 25px;
+    font-weight: 700;
+}
+#backdeuda {
+    border: 1px solid #c8b545;
+    border-left: solid #c8b545 38px;
+}
+#backdeuda > div:first-child {
+    background: #c8b545;
+}
+#divdeuda_est {
+    background-color: #c8b545;
+    text-align: center;
+    color: white;
+}
+
 /*seguridad*/
 
 #divseguridad{
@@ -400,6 +427,12 @@ Rubros
 }
 
 .backcard > div:first-child {
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.backcard > div:nth-child(2) {
     color: #fff;
     margin: 0;
     padding: 5px;
