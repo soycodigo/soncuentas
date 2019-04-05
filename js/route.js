@@ -154,5 +154,15 @@ app.config(function($routeProvider) {
         templateUrl : "views/municipios.html"
     }).when("/otrospoderes", {
         templateUrl : "views/otrospoderes.html"
+    }).when("/cets", {
+        templateUrl : "views/cets.html"
+    }).when("/cet", {
+        templateUrl : "views/cet.html"
+    }).when("/sueldos_educacionmedia", {
+        templateUrl : "views/sueldos_educacionmedia.html"
+    }).when("/infoestadistica", {
+        templateUrl : "views/infoestadistica.html"
+    }).when("/capapoli", {
+        templateUrl : "views/capapoli.html"
     });
 });
