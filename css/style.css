@@ -574,3 +574,10 @@ footer{
     height: 170px;
     text-align: center;
 }
+#otrospoderespdf{
+    background-image: url('../img/otrospoderespdf.PNG');
+    text-shadow: .1em .1em #333;
+    width: 333px;
+    height: 170px;
+    text-align: center;
+}
