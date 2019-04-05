@@ -342,7 +342,7 @@ Rubros
 }
 /*municipios*/
 #divmunicipios{
-    background-color: #2e8e43;
+    background-color: #a94822;
 }
 #divmunicipios:hover{
     display: none;
@@ -354,11 +354,11 @@ Rubros
     margin-left: 52px;
 }
 #backmunicipios{
-    border: 1px solid #2e8e43;
-    border-left: solid #2e8e43 38px;
+    border: 1px solid #a94822;
+    border-left: solid #a94822 38px;
 }
 #backmunicipios > div:first-child {
-    background: #2e8e43;
+    background: #a94822;
 }
 /*administracion de gobierno*/
 #divadmon{
