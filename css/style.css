@@ -7,6 +7,25 @@ a{
     text-decoration: none !important;
     color:inherit;
 }
+#barraroja{
+    background-color: red;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 33px;
+    /*font-weight: 900;*/
+    font-size: 30px;
+}
+#barrablanca{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 33px;
+    font-weight: 900;
+    font-size: 30px;
+}
 .parallaxsonora{
     /* The image used */
     background-image: url("../img/ilustracion-sonora.png");
@@ -588,6 +607,13 @@ footer{
 }
 #otrospoderespdf{
     background-image: url('../img/otrospoderespdf.PNG');
+    text-shadow: .1em .1em #333;
+    width: 333px;
+    height: 170px;
+    text-align: center;
+}
+#inafpdf{
+    background-image: url('../img/isaflogonew.png');
     text-shadow: .1em .1em #333;
     width: 333px;
     height: 170px;

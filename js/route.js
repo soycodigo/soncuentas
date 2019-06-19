@@ -164,5 +164,13 @@ app.config(function($routeProvider) {
         templateUrl : "views/infoestadistica.html"
     }).when("/capapoli", {
         templateUrl : "views/capapoli.html"
+    }).when("/soncuentas2018", {
+        templateUrl : "views/2018/home2018.html"
+    }).when("/inafview", {
+        templateUrl : "views/inafview.html"
+    }).when("/sonorabecas", {
+        templateUrl : "views/sonorabecas.html"
+    }).when("/cecop", {
+        templateUrl : "views/cecop.html"
     });
 });
